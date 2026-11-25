@@ -1,5 +1,48 @@
+# Daftar abaian untuk repo entri ini: menjaga folder kerja, hasil build,
+# dan berkas sementara tetap di luar git, supaya yang ter-commit hanya
+# kode sumber dan dokumen entri.
+
+# Direktori kit yang sudah di-unpack
 *-kit/
-kit.tar.gz
-out/
-__pycache__/
+kit/
+
+# Arsip bundle
+*.tar.gz
+*.makefun-bundle
+*.zip
+
+# Dependensi Node
 node_modules/
+
+# Hasil build
+dist/
+build/
+out/
+.next/
+.turbo/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Metadata macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# File log
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Berkas editor dan sistem
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
